@@ -266,6 +266,7 @@ Event-driven systems must be designed carefully to avoid infinite loops, where e
 The publish-subscribe pattern is a valuable design pattern that helps decouple system components, making your application more maintainable, readable, and scalable. When combined with single responsibility service objects, Pub/Sub can encapsulate business logic effectively and prevent different business concerns from creeping into models or controllers. However, use this pattern judiciously, as it can introduce challenges like inflexible semantic coupling, messaging bus stability issues, and potential infinite event loops.
 
 ## Resources
+- [ActionCable](https://guides.rubyonrails.org/action_cable_overview.html)
 - [The Publish-Subscribe Pattern on Rails](https://www.toptal.com/ruby-on-rails/the-publish-subscribe-pattern-on-rails)
 - [Wisper](https://github.com/krisleech/wisper)
 - [EventBus](https://github.com/kevinrutherford/event_bus)
